@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.form__header {
+    background-color: white;
+    padding: 25px;
+    margin: 1px;
+}
+
+.form__input {
+    margin: 1px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+}
+
+.form__newTask {
+    flex-grow: 1;
+    margin-right: 20px;
+    border: 1px solid rgb(240, 240, 240);
+    margin: 5px;
+    padding-left: 15px;
+}
+
+.form__button {
+    background-color: teal;
+    margin: 5px;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .form__button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .form__newTask {
+        height: 40px;
+    }
+}
+
+.form__button:hover {
+    transform: scale(1.05);
+}

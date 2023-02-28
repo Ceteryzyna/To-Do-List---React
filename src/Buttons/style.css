@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+@media (max-width: 767px) {
+    .buttons {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 9px;
+        width: 100%;
+    }
+}
+
+.buttons {
+    background-color: white;
+ }
+
+.buttons__button {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: teal;
+    cursor: pointer;
+    transition: 1s;
+}
+
+@media (max-width: 767px) {
+    .buttons__button {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px
+    }
+}
+.buttons__button:hover {
+    color: rgb(1, 218, 218);
+}
+
+.buttons__button:disabled {
+    color: gainsboro;
+    cursor: auto;
+}
