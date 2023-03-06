@@ -3,7 +3,6 @@ import Tasks from "./Tasks";
 import Buttons from "./Buttons";
 import Header from "./Header";
 
-
 const tasks = [
   {id: 1, content: "umyć podłogę", done: true},
   {id: 2, content: "pomalować paznokcie", done: true},
