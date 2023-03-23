@@ -9,7 +9,7 @@ This is not a finished project.
 ## How does it will works?
 You add a task to your task list. After completing an activity, you have the option to mark it as complete and hide all completed.
 
-<span style="color:blue">some *blue* text</span>
+<span style="color:red">some *tutaj powinien pojawic sie kolorowy text* text</span>
 
 ## Technologies
 <ul>
