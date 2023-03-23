@@ -1,6 +1,6 @@
-#To-Do List - React
+# To-Do List - React
 
-##INTRUDUCTION
+## INTRUDUCTION
 I present the first project from the YouCode course that I made in React. This is the first part. The whole project will be ready soon. 
 
 ## Attention
