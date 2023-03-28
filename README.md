@@ -9,8 +9,7 @@ This is not a finished project.
 ## How does it will works?
 You add a task to your task list. After completing an activity, you have the option to mark it as complete and hide all completed.
 
-<div style="background-color:teal">
-Technologies: 
+## Technologies: 
 <ul>
 <li>HTML</li>
 <li>CSS</li>
@@ -20,7 +19,9 @@ Technologies:
 <li>React.js</li>
 <li>Node.js</li>
 </ul>
-</div>
 
 ## DEMO:
 https://ceteryzyna.github.io/To-Do-List---React/
+
+## Preview:
+![tasks creator](/public/images/preview.gif)
