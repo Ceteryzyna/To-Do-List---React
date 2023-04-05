@@ -1,0 +1,15 @@
+.section__title {
+    background-color: white;
+    padding: 25px;
+    margin: 1px;
+}
+
+.section__header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding-bottom: 9px;
+    grid-gap: 10px;
+    align-items: center;
+    margin-top: 9px;
+    background-color: white;
+}

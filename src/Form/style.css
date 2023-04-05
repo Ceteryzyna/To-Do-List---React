@@ -8,12 +8,6 @@ html {
     box-sizing: inherit;
 }
 
-.form__header {
-    background-color: white;
-    padding: 25px;
-    margin: 1px;
-}
-
 .form__input {
     margin: 1px;
     padding: 25px;

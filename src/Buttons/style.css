@@ -19,7 +19,10 @@ html {
 
 .buttons {
     background-color: white;
- }
+    margin: auto 0;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .buttons__button {
     background-color: rgb(255, 255, 255);
@@ -36,6 +39,7 @@ html {
         grid-gap: 10px
     }
 }
+
 .buttons__button:hover {
     color: rgb(1, 218, 218);
 }
