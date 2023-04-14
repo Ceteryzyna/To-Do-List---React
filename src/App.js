@@ -6,16 +6,19 @@ import Container from "./Container";
 import Section from "./Section";
 import { useState } from 'react';
 
-const tasks = [
-  { id: 1, content: "umyć podłogę", done: false },
-  { id: 2, content: "pomalować paznokcie", done: true },
-];
-
 function App() {
   const [hideDone, setHideDone] = useState(false);
+  const [tasks, setTasks] = useState([
+    { id: 1, content: "umyć podłogę", done: false },
+    { id: 2, content: "pomalować paznokcie", done: true },
+  ]);
 
   const toggleHideDone = () => {
     setHideDone(hideDone => !hideDone)
+  };
+
+  const removeTask = (id) => {
+    setTasks(tasks => tasks.filter(task => task.id !== id));
   }
 
   return (
@@ -38,8 +41,9 @@ function App() {
         body={
           <Tasks
             tasks={tasks}
-            hideDone={hideDone} />
-          }
+            hideDone={hideDone} 
+            removeTask={removeTask}/>
+        }
       />
     </Container >
   );
